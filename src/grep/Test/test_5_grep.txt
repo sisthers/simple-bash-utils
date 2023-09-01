@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int sum(int a, int b);
+
+int subtraction(int a, int b);
+
+int multiplication(int a, int b);
+
+int division(int a, int b);
+
+int main()
+{
+    int a;
+    int b;
+    char c;
+    
+    
+    if(scanf("%d %d%c", &a, &b, &c) == 3 && c != ' ' )
+       {
+           printf("%d %d %d ", sum(a, b), subtraction(a, b), multiplication(a, b));
+           
+           if(b != 0)
+                printf("%d\n", division(a, b));
+            else 
+                printf("n/a\n");
+       }
+    else
+       {
+        printf("n/a\n");
+       }
+
+}
+
+int sum(int a, int b){
+    return a + b;
+}
+int subtraction(int a, int b){
+    return a - b;
+}
+int multiplication(int a, int b){
+    return a * b;
+}
+int division(int a, int b){
+    return a / b;
+}
