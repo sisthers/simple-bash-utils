@@ -1,6 +1,6 @@
 # simple-bash-utils
 Implementation of basic Bash utilities: cat and grep. My first project made during my education in School 21.
-Tests were not fully written by me.
+Tests were not fully written by me. Works correctly on Ubunto 22.04.
 
 ## Usage
 ### Download
