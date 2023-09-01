@@ -1,6 +1,6 @@
 # simple-bash-utils
 Implementation of basic Bash utilities: cat and grep. My first project made during my education in School 21.
-Tests were not fully written by me. Works correctly on Ubuntu 22.04.
+Tests were not fully written by me. Works correctly on Ubuntu 22.04. Written in C.
 
 ## Usage
 ### Download
